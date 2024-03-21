@@ -8,7 +8,7 @@ public class Collection {
 		a1.add(2);
 		a1.add(3);
 		a1.add(4);
-		a1.add(5);
+	
 		
 		if(a1.contains(1)) {
 			System.out.println("it contains");
