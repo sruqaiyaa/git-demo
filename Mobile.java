@@ -3,23 +3,23 @@ public class Mobile implements Comparable{
 
 	
 	    String module;
-		String colour;
+		String colour1;
 		public String getModule() {
 			return module;
 		}
 		public void setModule(String module) {
 			this.module = module;
 		}
-		public String getColour() {
-			return colour;
+		public String getColour1() {
+			return colour1;
 		}
-		public void setColour(String colour) {
-			this.colour = colour;
+		public void setColour1(String colour1) {
+			this.colour1 = colour1;
 		}
-		public Mobile(String module, String colour) {
+		public Mobile(String module, String colour1) {
 			super();
 			this.module = module;
-			this.colour = colour;
+			this.colour1 = colour1;
 		}
 		@Override
 		public int compareTo(Object o) {
@@ -29,7 +29,7 @@ public class Mobile implements Comparable{
 		}
 		@Override
 		public String toString() {
-			return "[module : " + module + ", colour : " + colour + "]";
+			return "[module : " + module + ", colour1 : " + colour1 + "]";
 			
 		}
 		

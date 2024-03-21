@@ -15,7 +15,7 @@ public class ObjectClass {
 		set.add(obj3);
 		set.add(obj4);
 		set.add(obj5);
-		System.out.println(set);
+		System.out.println(set+"set");
 		
 
 	}
